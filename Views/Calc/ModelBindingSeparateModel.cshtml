@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "ModelBindingInSeparateModel";
+}
+
+<h2>ModelBindingInSeparateModel</h2>
+<form method="post" action="~/Calc/Count4">
+    <div><input name="value1" /></div>
+    <div>
+        <select name="operation">
+            <option>+</option>
+            <option>-</option>
+            <option>*</option>
+            <option>/</option>
+        </select>
+    </div>
+    <div>
+    <input name="value2" />
+    </div>
+    <div>
+    <input type="submit" />
+    </div>
+    
+</form>
